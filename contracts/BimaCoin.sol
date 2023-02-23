@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.17;
+pragma solidity 0.8.0;
 
 import "hardhat/console.sol";
 
 error BimaCoin__NotEnoughBalance();
 
 contract BimaCoin {
-        mapping (address => uint) public balances;
+        mapping (address => uint) public balanceOf;
         uint256 private i_tokensToBeMinted;
 
         event tokensMinted(
@@ -15,21 +15,21 @@ contract BimaCoin {
         );
 
         constructor(uint256 tokensToBeMinted) {
-                balances[tx.origin] = tokensToBeMinted;
+                balanceOf[tx.origin] = tokensToBeMinted;
                 i_tokensToBeMinted= tokensToBeMinted;
                 emit tokensMinted(tokensToBeMinted, msg.sender);
         }
 
-        function sendCoin(address receiver, uint amount) public returns(bool sufficient) {
-                if (balances[msg.sender] < amount) {
+        function transfer(address receiver, uint amount) public returns(bool sufficient) {
+                if (balanceOf[msg.sender] < amount) {
                         // return false;
                 revert BimaCoin__NotEnoughBalance();
                 }
 
-                balances[msg.sender] -= amount;
-                balances[receiver] += amount;
+                balanceOf[msg.sender] -= amount;
+                balanceOf[receiver] += amount;
                  console.log(
-        "Transferring from %s to %s %s tokens",
+        "Transferring from %s to %s %s BimaCoins",
         msg.sender,
         receiver,
         amount
@@ -38,7 +38,7 @@ contract BimaCoin {
         }
 
         function getBalance(address addr) public view returns(uint) {
-                return balances[addr];
+                return balanceOf[addr];
         }
 
         function getMintedTokenBalance() public view returns(uint256){
