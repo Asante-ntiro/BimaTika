@@ -1,6 +1,4 @@
-# Sample Hardhat Project
-
-# BimaTika
+## BimaTika
 BimaTika is a mobile electronic platform providing micro-insurance 
 products to guarantee affordable access to health care services. BimaTika engages 
 private enterprise as a solution to bridge premiums collection and claim 
