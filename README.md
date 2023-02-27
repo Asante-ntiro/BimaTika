@@ -33,3 +33,6 @@ credit to the user’s insurance cover. When health care services are required a
 the subscriber needs to make a claim, they simply go to the desired participating
 health facility where their identification and cover will be verified and payment 
 made directly to the health care service provider once service is rendered.
+
+## BimaTika Flow Chart
+![bimatika_flow_tree](https://user-images.githubusercontent.com/56521039/221693085-5502e922-5b10-4349-a0a5-0f4c3e058439.png)
