@@ -1,0 +1,103 @@
+/* .signup {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #e5e5e5;
+}
+
+header h2 {
+  position: absolute;
+  left: 30%;
+  top: 23%;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Inter" sans-serif;
+  font-style: normal;
+}
+
+.phone {
+  position: absolute;
+  top: 34%;
+  left: 20%;
+  height: 50px;
+  width: fit-content;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #f6f6f6;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+}
+
+.password {
+  position: absolute;
+  height: 50px;
+  top: 50%;
+  left: 20%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #f6f6f6;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+}
+
+.signup span {
+  position: absolute;
+  top: 61%;
+  padding: 10px;
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+}
+
+button {
+  position: absolute;
+  top: 70%;
+  left: 17%;
+  height: 51px;
+  width: 200px;
+  border-radius: 100px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 12px;
+  background: #5db075;
+  border-radius: 100px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e5e5e5;
+  color: #000000;
+}
+
+a {
+  position: absolute;
+  width: 178px;
+  height: 19px;
+  bottom: 15%;
+  left: 21%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5db075;
+  text-decoration: none;
+} */
